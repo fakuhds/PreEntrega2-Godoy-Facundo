@@ -1,0 +1,20 @@
+.barra{
+    background-color: rgb(104, 107, 106) !important;
+} 
+
+.jumbotron{
+    background-image: url(./assets/images/1-slide-1673532836428-7014091583-a9eb9e3c65462a5f9cb0bd179cdca72c1673532848-1920-1920.webp);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 0;
+
+}
+
+.der{
+    background-color: rgb(104, 107, 106);
+    background-image: url(./assets/images/IMG-20230302-WA0043.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
