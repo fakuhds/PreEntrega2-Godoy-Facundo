@@ -11,10 +11,64 @@
 
 }
 
-.der{
+.izq{
     background-color: rgb(104, 107, 106);
     background-image: url(./assets/images/IMG-20230302-WA0043.jpg);
-    background-size: cover;
+    background-size: cover ;
     background-position: center;
     height: 300px;
+}
+
+.derN{
+    background-color: rgb(104, 107, 106);
+    background-image: url(./assets/images/IMG-20230302-WA0043.jpg);
+    background-size: cover ;
+    background-position: center;
+    height: 300px;
+}
+
+.der{
+    height: 300px;
+}
+
+.derN{
+    height: 300px;
+}
+
+.nosotrasQuienes{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    height: 400px;
+    padding-top: 50px;
+}
+
+.nosotrasQuienes h1{
+    text-align: center;
+    font-size: 40px;
+    color: #fcd4e0;
+}
+
+.nosotrasQuienes p{
+    padding: 20px;
+    font-size: 15px;
+    color: #2c3e50;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.nosotrasNegrita{
+    font-weight: bold;
+
+}
+
+.nosotrasCursiva{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.logoFooter{
+background-color:#fcd4e0;
+border-radius: 3px;
+
+
 }
