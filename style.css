@@ -1,14 +1,14 @@
-.barra{
+.barra {
     background-color: rgb(104, 107, 106) !important;
     font-family: 'Montserrat', sans-serif;
-    
-} 
+
+}
 
 
 
 
 
-.jumbotron{
+.jumbotron {
     background-image: url(./assets/images/1-slide-1673532836428-7014091583-a9eb9e3c65462a5f9cb0bd179cdca72c1673532848-1920-1920.webp);
     background-size: cover;
     background-position: center;
@@ -20,10 +20,10 @@
 
 
 
-.izq{
+.izq {
     background-color: rgb(104, 107, 106);
     background-image: url(./assets/images/manuel-cosentino-M3fhZSBFoFQ-unsplash.jpg);
-    background-size: cover ;
+    background-size: cover;
     background-position: center;
     height: 800px;
     border-radius: 10px;
@@ -31,20 +31,21 @@
 
 
 
-.izqN{
+.izqN {
     padding-top: 200px;
 
 }
 
-.der{
-    font-family: 'Montserrat', sans-serif;;
+.der {
+    font-family: 'Montserrat', sans-serif;
+    ;
 }
 
 
-.derN{
+.derN {
     background-color: rgb(104, 107, 106);
     background-image: url(./assets/images/IMG-20230302-WA0043.jpg);
-    background-size: cover ;
+    background-size: cover;
     background-position: center;
     height: 800px;
     border-radius: 5px;
@@ -53,20 +54,20 @@
 
 
 
-.nosotrasQuienes{
+.nosotrasQuienes {
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
     height: 400px;
     padding-top: 50px;
 }
 
-.nosotrasQuienes h1{
+.nosotrasQuienes h1 {
     text-align: center;
     font-size: 40px;
     color: #fcd4e0;
 }
 
-.nosotrasQuienes p{
+.nosotrasQuienes p {
     padding: 20px;
     font-size: 15px;
     color: #2c3e50;
@@ -74,55 +75,59 @@
     padding-top: 50px;
 }
 
-.nosotrasNegrita{
+.nosotrasNegrita {
     font-weight: bold;
 
 }
 
-.nosotrasCursiva{
+.nosotrasCursiva {
     font-weight: bold;
     font-style: italic;
 }
 
 
 
-.giftCardTexto h1{
+.giftCardTexto h1 {
     text-align: center;
     padding-top: 40px;
     color: #2c3e50;
     font-size: 40px;
-    font-family:'Montserrat', sans-serif ;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
-.giftCardTexto p{
-    padding-top: 20px;;
+.giftCardTexto p {
+    padding-top: 20px;
+    ;
     color: #2c3e50;
     text-align: center;
     font-size: 15px;
 
 }
 
-.giftCardTexto ol{
+.giftCardTexto ol {
     text-align: center;
-    
+
 }
-.giftCardTexto h2{
+
+.giftCardTexto h2 {
     text-align: center;
     color: #2c3e50;
     font-size: 17px;
     padding-top: 20px;
 }
-.giftCardTexto ol li{
-    list-style-type:disc;
+
+.giftCardTexto ol li {
+    list-style-type: disc;
 }
-.giftCardLista{
+
+.giftCardLista {
     padding-top: 10px
 }
 
 
 
-.giftCardLista li{
+.giftCardLista li {
     list-style-type: armenian;
     color: #2c3e50;
 }
@@ -133,14 +138,14 @@
 
 
 
-.logoFooter{
-background-color:#fcd4e0;
-border-radius: 3px;
-height: 80px;
+.logoFooter {
+    background-color: #fcd4e0;
+    border-radius: 3px;
+    height: 80px;
 
 
 }
 
-footer{
+footer {
     margin-top: 10px;
 }
