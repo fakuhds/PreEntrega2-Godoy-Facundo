@@ -7,6 +7,20 @@ body {
 .barra {
   background-color: rgb(104, 107, 106) !important;
   font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+}
+
+.navbar-brand {
+  background-image: url(../assets/images/logo-1436315284-1675872426-73920926578b12623c924f452f0c7dc61675872426-320-0.png);
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 55px;
+  text-align: center;
+}
+
+#collapsibleNavbar {
+  justify-content: flex-end;
 }
 
 .jumbotron {
@@ -194,12 +208,24 @@ form h2 {
   color: #2c3e50;
 }
 .showroom h2 {
-  font-size: 60px;
+  font-size: 70px;
+  font-family: "acme", "Montserrat";
 }
 
 .galeria {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.img1, .img3, .img2 {
+  filter: grayscale(100%);
   padding-left: 10px;
-  padding-right: 10px;
+}
+
+.img1:hover, .img3:hover, .img2:hover {
+  transform: scale(1.05);
+  transition: all 0.9s;
+  filter: grayscale(0%);
 }
 
 /*# sourceMappingURL=style.css.map */
