@@ -1,3 +1,9 @@
+body {
+  background-image: url(../assets/images/OAK42N0.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 .barra {
   background-color: rgb(104, 107, 106) !important;
   font-family: "Montserrat", sans-serif;
@@ -8,7 +14,8 @@
   background-size: cover;
   background-position: center;
   height: 450px;
-  border-radius: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #000000, 0 0 5px #000, inset 0 0 5px #000;
 }
 
 .izq {
@@ -21,7 +28,28 @@
 }
 
 .izqN {
-  padding-top: 200px;
+  padding-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+}
+.izqN h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #2c3e50;
+}
+.izqN p {
+  padding: 20px;
+  font-size: 20px;
+  color: #2c3e50;
+  text-align: center;
+  padding-top: 50px;
+}
+.izqN .nosotrasNegrita {
+  font-weight: bold;
+}
+.izqN .nosotrasCursiva {
+  font-weight: bold;
+  font-style: italic;
 }
 
 .der {
@@ -31,40 +59,10 @@
 .derN {
   background-color: rgb(104, 107, 106);
   background-image: url(../assets/images/IMG-20230302-WA0043.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 800px;
   border-radius: 5px;
-}
-
-.nosotrasQuienes {
-  font-family: "Montserrat", sans-serif;
-  text-align: justify;
-  height: 400px;
-  padding-top: 50px;
-}
-
-.nosotrasQuienes h1 {
-  text-align: center;
-  font-size: 40px;
-  color: #fcd4e0;
-}
-
-.nosotrasQuienes p {
-  padding: 20px;
-  font-size: 15px;
-  color: #2c3e50;
-  text-align: center;
-  padding-top: 50px;
-}
-
-.nosotrasNegrita {
-  font-weight: bold;
-}
-
-.nosotrasCursiva {
-  font-weight: bold;
-  font-style: italic;
+  background-position: center;
+  width: 500px;
+  height: 700px;
 }
 
 .giftCardTexto h1 {
@@ -74,34 +72,28 @@
   font-size: 40px;
   font-family: "Montserrat", sans-serif;
 }
-
 .giftCardTexto p {
   padding-top: 20px;
   color: #2c3e50;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
 }
-
 .giftCardTexto ol {
   text-align: center;
 }
-
 .giftCardTexto h2 {
   text-align: center;
   color: #2c3e50;
   font-size: 17px;
   padding-top: 20px;
 }
-
 .giftCardTexto ol li {
   list-style-type: disc;
 }
-
-.giftCardLista {
+.giftCardTexto .giftCardLista {
   padding-top: 10px;
 }
-
-.giftCardLista li {
+.giftCardTexto li {
   list-style-type: armenian;
   color: #2c3e50;
 }
@@ -114,6 +106,7 @@
 
 footer {
   margin-top: 10px;
+  box-shadow: 0 0 5px #000000, 0 0 5px #000, inset 0 0 5px #000;
 }
 
 form {
@@ -150,7 +143,63 @@ form h2 {
 .home_der p {
   font-size: 30px;
 }
-
 .home_der h2 {
   font-size: 60px;
 }
+
+.pulsera {
+  font-family: "Montserrat", sans-serif;
+  color: #2c3e50;
+}
+.pulsera h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.pulsera p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.anillo {
+  font-family: "Montserrat", sans-serif;
+  color: #2c3e50;
+  box-shadow: 0 0 5px #000000, 0 0 5px #000, inset 0 0 5px #000;
+}
+.anillo h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.anillo p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.collar {
+  font-family: "Montserrat", sans-serif;
+  color: #2c3e50;
+}
+.collar h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.collar p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.showroom {
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #2c3e50;
+}
+.showroom h2 {
+  font-size: 60px;
+}
+
+.galeria {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

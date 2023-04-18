@@ -1,0 +1,234 @@
+body{
+    background-image: url(../assets/images/OAK42N0.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.barra {
+  background-color: rgb(104, 107, 106) !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+.jumbotron {
+  background-image: url(../assets/images/1-slide-1673532836428-7014091583-a9eb9e3c65462a5f9cb0bd179cdca72c1673532848-1920-1920.webp);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  border-radius: 5px ;
+  box-shadow: 0 0 5px #000000,
+  0 0 5px #000,
+   inset 0 0 5px #000 ;
+}
+
+.izq {
+  background-color: rgb(104, 107, 106);
+  background-image: url(../assets/images/manuel-cosentino-M3fhZSBFoFQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  border-radius: 10px;
+}
+
+.izqN {
+  padding-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+
+  h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #2c3e50;
+  }
+
+  p {
+    padding: 20px;
+    font-size: 20px;
+    color: #2c3e50;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .nosotrasNegrita {
+    font-weight: bold;
+  }
+  .nosotrasCursiva {
+    font-weight: bold;
+    font-style: italic;
+  }
+}
+
+.der {
+  font-family: "Montserrat", sans-serif;
+}
+
+.derN {
+  background-color: rgb(104, 107, 106);
+  background-image: url(../assets/images/IMG-20230302-WA0043.jpg);
+  border-radius: 5px;
+  background-position: center;
+  width: 500px;
+  height: 700px;
+
+   
+ 
+}
+
+.giftCardTexto {
+  h1 {
+    text-align: center;
+    padding-top: 40px;
+    color: #2c3e50;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+  }
+  p {
+    padding-top: 20px;
+    color: #2c3e50;
+    text-align: center;
+    font-size: 20px;
+  }
+  ol {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 17px;
+    padding-top: 20px;
+  }
+  ol li {
+    list-style-type: disc;
+  }
+  .giftCardLista {
+    padding-top: 10px;
+  }
+  li {
+    list-style-type: armenian;
+    color: #2c3e50;
+  }
+}
+
+.logoFooter {
+  background-color: #fcd4e0;
+  border-radius: 3px;
+  height: 80px;
+}
+
+footer {
+  margin-top: 10px;
+  box-shadow: 0 0 5px #000000,
+  0 0 5px #000,
+   inset 0 0 5px #000 ;
+}
+
+form {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #2c3e50;
+  font-weight: bold;
+
+h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  color: #2c3e50;
+}
+}
+
+.home_izq {
+  background-color: rgb(104, 107, 106);
+  background-image: url(../assets/images/cosnt.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  border-radius: 5px;
+}
+
+.home_der {
+  padding-top: 300px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #2c3e50;
+  font-style: italic;
+
+p {
+  font-size: 30px;
+}
+
+
+h2 {
+  font-size: 60px;
+}
+}
+
+.pulsera{
+    font-family: "Montserrat", sans-serif;
+  color: #2c3e50;
+ 
+
+  h2{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  p{
+    font-size: 15px;
+    text-align: justify;
+  }
+
+}
+
+.anillo{
+    font-family: "Montserrat", sans-serif;
+  color: #2c3e50;
+  box-shadow: 0 0 5px #000000,
+  0 0 5px #000,
+   inset 0 0 5px #000 ;
+ 
+
+  h2{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  p{
+    font-size: 15px;
+    text-align: justify;
+  }
+
+}
+
+.collar{
+    font-family: "Montserrat", sans-serif;
+  color: #2c3e50;
+  
+
+  h2{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  p{
+    font-size: 15px;
+    text-align: justify;
+  }
+
+}
+
+.showroom{
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #2c3e50;
+
+  h2{
+    font-size: 60px;
+  }
+  
+}
+
+.galeria{
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
