@@ -23,7 +23,7 @@ body {
   justify-content: flex-end;
 }
 
-.jumbotron {
+.banner {
   background-image: url(../assets/images/1-slide-1673532836428-7014091583-a9eb9e3c65462a5f9cb0bd179cdca72c1673532848-1920-1920.webp);
   background-size: cover;
   background-position: center;
@@ -45,6 +45,11 @@ body {
   padding-top: 100px;
   font-family: "Montserrat", sans-serif;
   text-align: justify;
+}
+.izqN h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #2c3e50;
 }
 .izqN h2 {
   text-align: center;
@@ -129,7 +134,7 @@ form {
   color: #2c3e50;
   font-weight: bold;
 }
-form h2 {
+form h1 {
   text-align: center;
   padding-bottom: 20px;
   font-family: "Montserrat", sans-serif;
@@ -161,9 +166,31 @@ form h2 {
   font-size: 60px;
 }
 
+.cards {
+  font-family: "acme", "Montserrat";
+}
+
+.card {
+  border-radius: 5px;
+  border: 2px solid #2c3e50 !important;
+}
+
+.separador {
+  background-image: url(../assets/images/1-slide-1676998771619-4481461242-330d1c7c76edefb8544de0ca1ab0b1c31676998776-1920-1920.webp);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #000000, 0 0 5px #000, inset 0 0 5px #000;
+}
+
 .pulsera {
   font-family: "Montserrat", sans-serif;
   color: #2c3e50;
+}
+.pulsera h1 {
+  font-size: 50px;
+  font-weight: bold;
 }
 .pulsera h2 {
   font-size: 50px;
@@ -207,7 +234,7 @@ form h2 {
   font-family: "Montserrat", sans-serif;
   color: #2c3e50;
 }
-.showroom h2 {
+.showroom h1 {
   font-size: 70px;
   font-family: "acme", "Montserrat";
 }
